@@ -1,3 +1,6 @@
 document.getElementById('btn-deposit').addEventListener('click',function(){
-    console.log('Deposit button clicked');
+    const depositField = document.getElementById('deposit-field');
+    const depositAmount = depositField.value;
+    
+    console.log(depositAmount);
 })
